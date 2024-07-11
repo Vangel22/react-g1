@@ -33,7 +33,7 @@ const router = createBrowserRouter([
       //   element: <Home />
       // },
       {
-        element: <Dashboard />,
+        element: <Dashboard headingColor="blue" />,
         children: [
           {
             path: "messages",

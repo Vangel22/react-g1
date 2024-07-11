@@ -22,7 +22,7 @@ function App() {
             path="home"
             element={<Home />}
           /> */}
-          <Route element={<Dashboard />} errorElement={ErrorPage}>
+          <Route element={<Dashboard headingColor="blue" />} errorElement={ErrorPage}>
             <Route path="messages" element={<>Dashboard messages</>} />
             <Route path="tasks" element={<>Dashboard tasks</>} />
           </Route>
